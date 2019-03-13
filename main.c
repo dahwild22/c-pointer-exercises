@@ -4,6 +4,8 @@
 
 #include <stdio.h>
 
+
+
 // forward declarations
 void run_global_array();
 void run_local_array();
@@ -12,6 +14,8 @@ void run_array_of_pointers();
 void run_linked_list();
 
 int main() {
+
+
     printf("C Pointer Exercises\n");
 
     run_global_array();

@@ -1,6 +1,14 @@
 cmake_minimum_required(VERSION 3.13)
-project(c-pointer-exercises C)
+project(c_pointer_exercises)
 
-set(CMAKE_C_STANDARD 11)
+set(CMAKE_CXX_STANDARD 14)
 
-add_executable(c_ptr_ex main.c global_array.c local_array.c monolithic_array.c array_of_pointers.c linked_list.c)
+add_executable(c_pointer_exercises
+        array_of_pointers.c
+        CMakeLists.txt
+        global_array.c
+        linked_list.c
+        local_array.c
+        main.c
+        monolithic_array.c
+        README.md)

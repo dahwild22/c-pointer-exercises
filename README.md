@@ -1,3 +1,5 @@
+This is Dan's version committed from CLion
+
 # C Pointer Exercises
 
 In-class C pointer exercises. If not finished, will be due as homework.
